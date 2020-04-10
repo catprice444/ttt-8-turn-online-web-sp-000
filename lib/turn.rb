@@ -31,7 +31,6 @@ def valid_move?(board,index)
   end
 end
 
-9 times.do
 def turn(board)
 puts "Please enter 1-9:"
 input = gets.strip
@@ -45,7 +44,7 @@ else
   turn(board)
 end
 end
-end
+
 #get input
 #convert input to index
 #if index is valid
